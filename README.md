@@ -1,5 +1,9 @@
 # Beevibe AI CTO
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/beevibe-ai/beevibe-cto/version.svg)](https://yarkr.com/arks/beevibe-ai/beevibe-cto)
+<!-- yarkr:badges:end -->
+
 **The decision layer your coding agents are missing.**
 
 <img alt="Beevibe AI CTO" src="https://github.com/user-attachments/assets/4f8dd109-71de-4cfa-b957-b609bf50591a" width="100%" />
@@ -79,6 +83,38 @@ Five tools become available: `adr_discover`, `adr_deep_research`, `adr_read_hand
 npm install -g github:beevibe-ai/beevibe-cto
 adr-doctor                       # audit env, exit non-zero if anything missing
 ```
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/beevibe-ai/beevibe-cto) as the ark [beevibe-ai/beevibe-cto](https://yarkr.com/arks/beevibe-ai/beevibe-cto), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync beevibe-ai/beevibe-cto
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:beevibe-ai/beevibe-cto/adr
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add beevibe-ai/beevibe-cto
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/beevibe-ai/beevibe-cto`.
+<!-- yarkr:install:end -->
 
 ## Run your first decision
 
